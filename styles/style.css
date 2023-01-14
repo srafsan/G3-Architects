@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+
+/* ----------------------------
+    Common Styles and Utilities
+    --------------------------- */
+
+* {
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 116px 240px 45px;
+}
+
+.btn-primary {
+    background-color: #ff900e;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    width: 180px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+/* --------------
+    Banner styles
+    ------------- */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-info {
+    text-align: center;
+}
+
+.banner-info .description {
+    margin: 30px;
+}
+
+.banner-img {
+    margin-top: 20px;
+}
