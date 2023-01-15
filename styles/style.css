@@ -206,6 +206,40 @@ nav {
     color: #ffffff;
 }
 
+/* Reviews styles */
+.peoples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.peoples .title {
+    margin-bottom: 50px;
+}
+
+.people-container {
+    display: flex;
+    gap: 20px;
+}
+
+.people {
+    padding: 30px 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.people-img {
+    text-align: center;
+    font-size: 50px;
+    padding: 10%;
+}
+
+.rating {
+    margin: 10px;
+    font-weight: bolder;
+}
+
 /* Sponsor styles */
 .sponsor {
     display: flex;
@@ -250,6 +284,14 @@ footer {
 
 .hide {
     display: none;
+}
+
+.fa-star.filled {
+    color: #ffc014;
+}
+
+.fa-star.empty {
+    color: #aeaeae;
 }
 
 /* For mobile devices */
@@ -324,5 +366,10 @@ footer {
     .facts {
         width: 100%;
         text-align: center;
+    }
+
+    .people-container {
+        flex-direction: column;
+        gap: 30px;
     }
 }
